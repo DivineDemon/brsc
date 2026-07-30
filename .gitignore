@@ -1,0 +1,37 @@
+# Node / Frontend Dependencies & Cache
+node_modules/
+frontend/node_modules/
+.npm/
+.vite/
+frontend/.vite/
+
+# Build outputs in frontend (the root copies index.html & assets/ for HF Static Space)
+frontend/dist/
+
+# Python Virtual Environments & Bytecode
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Databases & Cache Folders
+*.db
+*.sqlite3
+.cache/
+backend/app/data/.cache/
+backend/app/data/*.index
+backend/app/data/*.onnx
+backend/app/data/pytorch_model/
+
+# macOS / System
+.DS_Store
+Thumbs.db
+
+# Logs & Environment
+*.log
+.env
+.env.local

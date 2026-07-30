@@ -1,0 +1,11 @@
+fastapi>=0.100.0
+uvicorn>=0.22.0
+sqlalchemy>=2.0.0
+numpy>=1.22.0
+transformers>=4.30.0
+torch>=2.0.0 --extra-index-url https://download.pytorch.org/cli/cpu
+onnx>=1.14.0
+onnxruntime>=1.15.0
+celery>=5.3.0
+redis>=4.5.0
+faiss-cpu>=1.7.4

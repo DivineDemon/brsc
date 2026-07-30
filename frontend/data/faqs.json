@@ -1,0 +1,92 @@
+[
+  {
+    "id": "faq_1",
+    "category": "tracking",
+    "question_en": "How can I track my shipment or parcel?",
+    "answer_en": "You can track your shipment in real-time by entering your 12-digit Tracking ID on our tracking portal or by sending it to our support chatbot. Detailed status updates, including current location and estimated delivery time, will be displayed.",
+    "question_ur": "میں اپنا پارسل یا کھیپ کیسے ٹریک کر سکتا ہوں؟",
+    "answer_ur": "آپ ہمارے ٹریکنگ پورٹل پر اپنا 12 ہندسوں کا ٹریکنگ آئی ڈی درج کر کے یا اسے ہمارے سپورٹ چیٹ بوٹ کو بھیج کر حقیقی وقت (real-time) میں اپنے پارسل کو ٹریک کر سکتے ہیں۔ اس سے پارسل کی موجودہ لوکیشن اور پہنچنے کا متوقع وقت ظاہر ہو جائے گا۔",
+    "tags": ["track", "parcel", "shipment", "status", "ٹریپ", "پارسل", "سٹیٹس"]
+  },
+  {
+    "id": "faq_2",
+    "category": "rates",
+    "question_en": "What are your shipping rates and delivery charges?",
+    "answer_en": "Shipping rates are calculated based on package weight, dimensions, origin, and destination. Domestic shipping starts at Rs. 250 for up to 1kg, while international shipping rates vary by country and customs requirements. You can use our shipping calculator for an exact quote.",
+    "question_ur": "آپ کے شپنگ ریٹس اور ڈیلیوری چارجز کیا ہیں؟",
+    "answer_ur": "شپنگ ریٹس کا تعین پیکج کے وزن، سائز، روانگی اور منزل کے حساب سے کیا جاتا ہے۔ 1 کلو گرام تک کے لیے ملکی ڈیلیوری چارجز 250 روپے سے شروع ہوتے ہیں، جبکہ بین الاقوامی چارجز متعلقہ ملک اور کسٹمز کے قوانین پر منحصر ہیں۔ درست ریٹ معلوم کرنے کے لیے آپ ہمارا شپنگ کیلکولیٹر استعمال کر سکتے ہیں۔",
+    "tags": ["rates", "charges", "cost", "price", "قیمت", "ریٹ", "چارجز"]
+  },
+  {
+    "id": "faq_3",
+    "category": "customs",
+    "question_en": "Who is responsible for international customs duties and taxes?",
+    "answer_en": "For international shipments, the recipient is generally responsible for paying any import customs duties, taxes, or clearance fees levied by the destination country. These must be paid before customs will release the shipment for delivery.",
+    "question_ur": "بین الاقوامی کسٹمز ڈیوٹی اور ٹیکسوں کا ذمہ دار کون ہے؟",
+    "answer_ur": "بین الاقوامی ترسیل کے لیے، عام طور پر وصول کنندہ (recipient) منزل والے ملک کی طرف سے عائد کردہ تمام کسٹمز ڈیوٹی، ٹیکسز یا کلیئرنس فیس ادا کرنے کا ذمہ دار ہوتا ہے۔ ڈیلیوری سے پہلے ان واجبات کی ادائیگی ضروری ہے۔",
+    "tags": ["customs", "taxes", "duties", "international", "کسٹم", "ٹیکس", "ڈیوٹی"]
+  },
+  {
+    "id": "faq_4",
+    "category": "delivery",
+    "question_en": "Can I change my delivery address after the parcel has been shipped?",
+    "answer_en": "Yes, you can request an address redirect before the parcel is out for delivery. To modify your address, log into our portal, select your shipment, and click 'Redirect Package', or contact our hotline with your Tracking ID. Note that redirection may delay delivery by 24 hours.",
+    "question_ur": "کیا میں پارسل بھیجے جانے کے بعد ڈیلیوری کا پتہ تبدیل کر سکتا ہوں؟",
+    "answer_ur": "جی ہاں، پارسل کی حتمی ڈیلیوری کی روانگی سے پہلے آپ پتہ تبدیل کرنے کی درخواست کر سکتے ہیں۔ پتہ تبدیل کرنے کے لیے ہمارے پورٹل پر لاگ ان کریں، اپنا پارسل منتخب کریں اور 'Redirect Package' پر کلک کریں، یا ٹریکنگ آئی ڈی کے ساتھ ہیلپ لائن پر رابطہ کریں۔ پتہ تبدیل کرنے کی صورت میں ڈیلیوری میں 24 گھنٹے کی تاخیر ہو سکتی ہے۔",
+    "tags": ["address", "change address", "modify", "redirect", "پتہ", "تبدیلی", "ایڈریس"]
+  },
+  {
+    "id": "faq_5",
+    "category": "delivery",
+    "question_en": "What happens if I am not at home when the courier arrives?",
+    "answer_en": "If you are unavailable, our courier will make a total of three delivery attempts. After each attempt, you will receive an SMS and email notification. You can reschedule the next delivery attempt via our portal or authorize a neighbor to receive it on your behalf.",
+    "question_ur": "اگر کورئیر کی آمد پر میں گھر پر نہ ہوں تو کیا ہوگا؟",
+    "answer_ur": "اگر آپ دستیاب نہیں ہیں، تو ہمارا کورئیر ڈیلیوری کی کل تین کوششیں کرے گا۔ ہر کوشش کے بعد، آپ کو ایک ایس ایم ایس اور ای میل موصول ہوگی۔ آپ پورٹل کے ذریعے اگلی کوشش کا وقت دوبارہ طے کر سکتے ہیں یا اپنے کسی پڑوسی کو وصول کرنے کا اختیار دے سکتے ہیں۔",
+    "tags": ["missed", "not home", "retry", "reschedule", "غیر حاضری", "دوبارہ", "کورئیر"]
+  },
+  {
+    "id": "faq_6",
+    "category": "cancel",
+    "question_en": "How do I cancel a shipment after creating a booking?",
+    "answer_en": "You can cancel your shipment booking within 2 hours of creation or before the package is picked up by our courier. To cancel, navigate to 'My Bookings' on our portal and click 'Cancel Booking'. If payment was made online, refunds are processed in 5-7 business days.",
+    "question_ur": "بکنگ کے بعد میں اپنا پارسل کیسے منسوخ کر سکتا ہوں؟",
+    "answer_ur": "آپ بکنگ کرنے کے 2 گھنٹے کے اندر یا کورئیر کی طرف سے پیکج اٹھانے (pickup) سے پہلے اپنی بکنگ منسوخ کر سکتے ہیں۔ منسوخی کے لیے ہمارے پورٹل پر 'My Bookings' میں جائیں اور 'Cancel' پر کلک کریں۔ اگر آن لائن ادائیگی کی گئی تھی، تو ریفنڈ 5 سے 7 کاروباری دنوں میں منتقل کر دیا جائے گا۔",
+    "tags": ["cancel", "booking", "refund", "منسوخ", "بکنگ", "ریفنڈ"]
+  },
+  {
+    "id": "faq_7",
+    "category": "claims",
+    "question_en": "How can I file a claim for a lost or damaged package?",
+    "answer_en": "To file a claim for a damaged or missing package, please visit our Claims center within 14 days of the scheduled delivery. You will need to submit photos of the damaged item/packaging, the shipping receipt, and proof of the item's value. Claims are reviewed within 7 business days.",
+    "question_ur": "میں گمشدہ یا خراب شدہ پیکج کے لیے کلیم (شکایت) کیسے درج کر سکتا ہوں؟",
+    "answer_ur": "خراب یا گمشدہ پیکج کے کلیم کے لیے، براہ کرم ڈیلیوری کے 14 دنوں کے اندر ہمارے 'کلیم سینٹر' پر رجوع کریں۔ آپ کو نقصان کی تصاویر، شپنگ رسید اور سامان کی مالیت کا ثبوت فراہم کرنا ہوگا۔ دعوے کا جائزہ 7 کاروباری دنوں میں لیا جاتا ہے۔",
+    "tags": ["damaged", "lost", "claim", "refund", "نقصان", "گمشدہ", "شکایت", "کلیم"]
+  },
+  {
+    "id": "faq_8",
+    "category": "prohibited",
+    "question_en": "What items are prohibited from being shipped?",
+    "answer_en": "Prohibited items include hazardous materials, flammable liquids, weapons, perishable foods, lithium batteries (unless packaged securely within devices), and illegal contraband. Please refer to our comprehensive Prohibited Items guide on our website for the complete list.",
+    "question_ur": "شپنگ کے لیے کون سی اشیاء ممنوعہ ہیں؟",
+    "answer_ur": "ممنوعہ اشیاء میں خطرناک مواد، آتش گیر مائع (flammable liquids)، اسلحہ، جلد خراب ہونے والی غذائیں، لتھیم بیٹریاں (جب تک کہ ڈیوائس کے اندر محفوظ نہ ہوں) اور غیر قانونی اشیاء شامل ہیں۔ مکمل فہرست کے لیے براہ کرم ہماری ویب سائٹ پر 'ممنوعہ اشیاء کی گائیڈ' دیکھیں۔",
+    "tags": ["prohibited", "illegal", "restricted", "batteries", "ممنوع", "خطرناک", "اسلحہ"]
+  },
+  {
+    "id": "faq_9",
+    "category": "limits",
+    "question_en": "What are the weight and size limits for standard packages?",
+    "answer_en": "Standard shipments can weigh up to 30kg with a maximum length of 150cm and a combined length and girth of 300cm. Packages exceeding these thresholds must be booked under our Cargo & Heavy Freight service, which features specialized handling and custom pricing.",
+    "question_ur": "معیاری پیکجز کے لیے وزن اور سائز کی حدود کیا ہیں؟",
+    "answer_ur": "معیاری پارسلز کا وزن 30 کلو گرام تک ہو سکتا ہے جس کی لمبائی زیادہ سے زیادہ 150 سینٹی میٹر ہو۔ ان حدود سے تجاوز کرنے والے پیکجز کو ہماری 'کارگو اور ہیوی فریٹ' سروس کے تحت بک کیا جانا چاہیے، جس میں خصوصی ہینڈلنگ شامل ہے۔",
+    "tags": ["weight", "size", "limit", "heavy", "وزن", "سائز", "حد", "کارگو"]
+  },
+  {
+    "id": "faq_10",
+    "category": "payment",
+    "question_en": "Do you offer Cash on Delivery (COD) services for businesses?",
+    "answer_en": "Yes, we offer specialized Cash on Delivery (COD) services for registered e-commerce and retail merchants. We collect payments from customers upon delivery and settle the collected funds into your business bank account within 48-72 hours. Merchant registration is required.",
+    "question_ur": "کیا آپ کاروباری اداروں کے لیے کیش آن ڈیلیوری (COD) سروس پیش کرتے ہیں؟",
+    "answer_ur": "جی ہاں، ہم رجسٹرڈ ای کامرس اور ریٹیل تاجروں کے لیے خصوصی کیش آن ڈیلیوری (COD) سروس پیش کرتے ہیں۔ ہم ڈیلیوری پر گاہکوں سے رقم جمع کرتے ہیں اور 48 سے 72 گھنٹوں کے اندر یہ رقم آپ کے کاروباری بینک اکاؤنٹ میں منتقل کر دیتے ہیں۔ اس کے لیے مرچنٹ رجسٹریشن لازمی ہے۔",
+    "tags": ["cod", "cash on delivery", "payment", "merchant", "کیش آن ڈیلیوری", "ادائیگی", "مرچنٹ"]
+  }
+]

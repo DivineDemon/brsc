@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  # 1. Redis: Message Broker for Celery
+  redis:
+    image: redis:7-alpine
+    container_name: brsc_redis
+    ports:
+      - "6379:6379"
+    restart: always
+
+  # 2. Web: FastAPI Server & Static Frontend Client (using root Dockerfile)
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: brsc_web
+    ports:
+      - "8000:7860" # Maps local port 8000 to Hugging Face container port 7860
+    volumes:
+      - ./frontend:/app/frontend:ro
+      - brsc_shared_data:/app/app/data
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - DATABASE_URL=sqlite:////app/app/data/relevance_logs.db
+      - THRESHOLD_HIGH=0.80
+      - THRESHOLD_LOW=0.50
+    depends_on:
+      - redis
+    restart: always
+
+  # 3. Celery Worker: Background Task Runner
+  celery_worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: brsc_worker
+    command: celery -A app.tasks.celery_app worker --loglevel=info
+    volumes:
+      - brsc_shared_data:/app/app/data
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - DATABASE_URL=sqlite:////app/app/data/relevance_logs.db
+    depends_on:
+      - redis
+    restart: always
+
+volumes:
+  # Shared volume ensures SQLite logs and HNSW FAISS indices are synced 
+  # between the web server and the background workers in real-time.
+  brsc_shared_data:
+    name: brsc_shared_data
