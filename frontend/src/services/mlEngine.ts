@@ -13,7 +13,7 @@ class MLEngineService {
   private pipeline: any = null;
   private isPipelineLoading = false;
 
-  public async init(config: ConfigState): Promise<boolean> {
+  public async init(): Promise<boolean> {
     // 1. Check if REST API is active
     try {
       const res = await fetch('/api/stats', { method: 'GET', headers: { 'Accept': 'application/json' } });

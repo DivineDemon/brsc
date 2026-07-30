@@ -43,7 +43,7 @@ export const App: React.FC = () => {
   // Initialize Environment Detection & Services
   useEffect(() => {
     const initApp = async () => {
-      const isStatic = await mlService.init(config);
+      const isStatic = await mlService.init();
       setConfig(prev => ({ ...prev, isStaticSpace: isStatic }));
       refreshData(isStatic);
     };
